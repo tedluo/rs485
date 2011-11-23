@@ -1,0 +1,12 @@
+#Author 	ted
+#data		2011
+#Email		luoming8@gmail.com
+
+This is a simple drive that can translate date in
+serial ports with RS485 between two arm 6410 board.
+
+In order to make this process work,you have prapare 
+a kernel source code,and Cross compiler to exchange
+X86 structions to arm structions.
+and make sure make a node for the device,mknod /dev/
+rs482 c 122 0
